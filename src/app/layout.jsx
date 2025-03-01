@@ -2,7 +2,8 @@ import { Ubuntu } from "next/font/google";
 import "./globals.css";
 
 const UbuntuFont = Ubuntu({
-  weight: ["300", "400", "500", "700"]
+  weight: ["300", "400", "500", "700"],
+  subsets: ["latin"],
 });
 
 
