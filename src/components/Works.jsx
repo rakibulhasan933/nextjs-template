@@ -1,6 +1,8 @@
+import { cookies } from 'next/headers'
 import React from 'react'
 
 export default function Works() {
+    cookies();
     return (
         <div>
             <div className=' text-center'>
