@@ -15,7 +15,9 @@ export default function Works() {
                     </div>
                 </div>
             </div>
-            <div>2</div>
+            <div>
+                <h3>Date: - {Date()}</h3>
+            </div>
         </div>
     )
 }
