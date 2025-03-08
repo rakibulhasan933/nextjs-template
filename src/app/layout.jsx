@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${UbuntuFont.className} antialiased`}
+        className={`${UbuntuFont.className} hydrated antialiased`}
       >
         {children}
       </body>
